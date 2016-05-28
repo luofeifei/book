@@ -34,6 +34,8 @@ Route::group(['prefix'=>'service'],function(){
 	Route::any('validate_code/create/send',"Service\ValidateCodeController@sendSMS");
 	Route::get('validate_email',"Service\ValidateCodeController@validateEmail");
 
+	Route::get('cart/add/{product_id}',"Service\CartController@addCart");
+
 });
 
 

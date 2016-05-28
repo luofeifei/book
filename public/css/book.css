@@ -135,3 +135,12 @@ body,html{height:100%;-webkit-tap-highlight-color:transparent}
 .bk_menu{
   right: 10px;
 }
+.bk_fix_bottom{
+  position: relative;
+  width:100%;
+}
+.bk_half_area{
+  display: inline-block;
+  width: 45%;
+  margin: 5px 
+}
